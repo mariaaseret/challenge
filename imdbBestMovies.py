@@ -8,7 +8,7 @@ def install(package):
 		pip._internal.main(['install', package])
 
 
-		if __name__ == 'teste': install('git+https://github.com/alberanid/imdbpy')
+		if __name__ == 'imdbBestMovies': install('git+https://github.com/alberanid/imdbpy')
 
 
 import imdb
